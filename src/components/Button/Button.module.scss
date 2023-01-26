@@ -1,0 +1,32 @@
+.button {
+  width: 56.5px;
+  height: 53.765px;
+
+  background: linear-gradient(
+    233.16deg,
+    #00b0ce -47.28%,
+    rgba(0, 176, 206, 0.3) 73.34%
+  );
+  mix-blend-mode: normal;
+  border-radius: 200px;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+  border: 0;
+
+  &:hover {
+    background: linear-gradient(
+      233.16deg,
+      #019bb7 -47.28%,
+      rgba(0, 176, 206, 0.3) 73.34%
+    );
+    cursor: pointer;
+  }
+
+  &-arrow-right {
+    width: 2em;
+  }
+  &-arrow-left {
+    transform: scaleX(-1);
+    width: 2em;
+  }
+}
